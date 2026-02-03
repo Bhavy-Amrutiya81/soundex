@@ -1,0 +1,20 @@
+/* Gallery Page Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Gallery-specific styles that complement header.css */
+/* All navigation styles are now handled in header.css */
+
+
+
+/* Gallery page is now fully styled with inline CSS in the HTML file */
+/* This file can be used for any additional gallery-specific overrides if needed */
