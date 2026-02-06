@@ -27,12 +27,11 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
 }
 body {
     font-family: Arial, sans-serif;
-    
     background-color:beige;
     color: #333;
 }
 nav {
-    background-color:#fff;
+     style="color: #0077cc; 
     overflow: hidden;
     position: fixed;
     display: flex;
@@ -54,7 +53,7 @@ nav {
  
   nav ul li a {
     
-    color:black;
+    color:white;
     padding: 14px 30px;
     text-align: center;
     text-transform: uppercase;
@@ -65,17 +64,6 @@ nav {
   
     
   }
-  /*nav span{
-    position: absolute;
-    top:0;
-    left: 0;
-    width:100px;
-    height:100%;
-    justify-items: auto;
-    background: linear-gradient(45deg,red,blue);
-    border-radius: 10px;
-    transition: 0.5s;
-  }*/
   
   li a::before{
     content:'';
@@ -92,7 +80,7 @@ nav {
   }
   .logo h1
   {  
-    color: black;
+    color: white;
     display:flex;
     padding: 20px 40px;
     text-transform:uppercase;
@@ -118,37 +106,7 @@ nav {
   font-family:'Times New Roman', Times, serif;
 
 }
-  /*.navbar{
-    background-color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-  }
-  .navdiv{
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
-  }
-  .logo{
-    font-size: 30px;
-    color:#fff;
-    font-weight: 600;
-  }
-  li{
-    list-style: none;
-    display:inline-block;
-
-  }
-  li a{
-    color:black;
-    font-size:20px;
-    font-weight: bold;
-    margin-right: 20px;
-    text-decoration:none;
-  }*/
+  
   @media screen and (max-width: 768px) and (min-width: 601px) {
   nav {
     flex-wrap: wrap;
