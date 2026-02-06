@@ -15,6 +15,6 @@ if (isset($_SESSION['session_token'])) {
 session_destroy();
 
 // Redirect to home page
-header("Location: /Bhavya/frontend/index.php");
+header("Location: /Soundex/frontend/index.php");
 exit();
 ?>

@@ -23,8 +23,8 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Soundex Gallery - Premium Speakers & Audio Equipment</title>
-  <link rel="stylesheet" href="/Bhavya/frontend/css/gallary.css" />
-  <link rel="stylesheet" href="/Bhavya/frontend/css/header.css" />
+  <link rel="stylesheet" href="/Soundex/frontend/css/gallary.css" />
+  <link rel="stylesheet" href="/Soundex/frontend/css/header.css" />
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -253,25 +253,25 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
   <!-- Navigation Header -->
   <nav>
     <ul>
-      <div class="logo"><a href="/Bhavya/frontend/pages/about.php">
+      <div class="logo"><a href="/Soundex/frontend/pages/about.php">
           <h1>Soun<p>Dex</p>
           </h1>
         </a></div>
-      <li><a href="/Bhavya/frontend/pages/home.php">Home</a></li>
-      <li><a href="/Bhavya/frontend/pages/Gallery.php" class="active">Gallery</a></li>
-      <li><a href="/Bhavya/frontend/pages/faqs.php">FAQs</a></li>
-      <li><a href="/Bhavya/frontend/pages/services.php">Services</a></li>
-      <li><a href="/Bhavya/frontend/pages/contact%20us.php">Contact</a></li>
-      <li><a href="/Bhavya/frontend/pages/about.php">About</a></li>
+      <li><a href="/Soundex/frontend/pages/home.php">Home</a></li>
+      <li><a href="/Soundex/frontend/pages/Gallery.php" class="active">Gallery</a></li>
+      <li><a href="/Soundex/frontend/pages/faqs.php">FAQs</a></li>
+      <li><a href="/Soundex/frontend/pages/services.php">Services</a></li>
+      <li><a href="/Soundex/frontend/pages/contact%20us.php">Contact</a></li>
+      <li><a href="/Soundex/frontend/pages/about.php">About</a></li>
       <?php if ($isLoggedIn): ?>
-        <li><a href="/Bhavya/frontend/pages/history.php">History</a></li>
+        <li><a href="/Soundex/frontend/pages/history.php">History</a></li>
         <li><a href="#" style="color: #0077cc; font-weight: bold;"><?php echo htmlspecialchars($username); ?></a></li>
-        <li><a href="/Bhavya/frontend/logout.php">Logout</a></li>
+        <li><a href="/Soundex/frontend/logout.php">Logout</a></li>
       <?php else: ?>
-        <li><a href="/Bhavya/frontend/pages/login.php">Login</a></li>
-        <li><a href="/Bhavya/frontend/pages/signup.php">Sign Up</a></li>
+        <li><a href="/Soundex/frontend/pages/login.php">Login</a></li>
+        <li><a href="/Soundex/frontend/pages/signup.php">Sign Up</a></li>
       <?php endif; ?>
-      <li><a href="/Bhavya/frontend/pages/checkout.php" class="cart-icon" id="cartIcon">
+      <li><a href="/Soundex/frontend/pages/checkout.php" class="cart-icon" id="cartIcon">
           🛒
           <span class="cart-count" id="cartCount">0</span>
         </a></li>

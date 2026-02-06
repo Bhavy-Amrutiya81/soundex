@@ -23,7 +23,7 @@ if (!$product) {
             'name' => 'Soundcore Motion X500',
             'description' => 'Hi-Res certified speaker with dual drivers and premium sound quality.',
             'price' => 10999,
-            'image_url' => '/Bhavya/assets/images/product_gallery/38.jpg',
+            'image_url' => '/Soundex/assets/images/product_gallery/38.jpg',
             'features' => [
                 'Hi-Res certified audio',
                 'Dual driver technology',
@@ -185,11 +185,11 @@ button:hover {
     <div class="container">
     <!-- Product Images -->
     <div class="product-images">
-      <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/38.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product'); ?>" class="main-img" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+      <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/38.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product'); ?>" class="main-img" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
       <div class="thumbnail">
-        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/38.jpg'); ?>" alt="thumb1" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
-        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/38.jpg'); ?>" alt="thumb2" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
-        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/38.jpg'); ?>" alt="thumb3" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/38.jpg'); ?>" alt="thumb1" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
+        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/38.jpg'); ?>" alt="thumb2" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
+        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/38.jpg'); ?>" alt="thumb3" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
       </div>
     </div>
 

@@ -23,7 +23,7 @@ if (!$product) {
             'name' => 'pTron Fusion Go 10W',
             'description' => 'Affordable wireless speaker with 10W powerful output and Bluetooth 5.0.',
             'price' => 999,
-            'image_url' => '/Bhavya/assets/images/product_gallery/34.jpg',
+            'image_url' => '/Soundex/assets/images/product_gallery/34.jpg',
             'features' => [
                 '10W powerful output',
                 'Bluetooth 5.0',
@@ -185,11 +185,11 @@ button:hover {
     <div class="container">
     <!-- Product Images -->
     <div class="product-images">
-      <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/34.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product'); ?>" class="main-img" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+      <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/34.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product'); ?>" class="main-img" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
       <div class="thumbnail">
-        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/34.jpg'); ?>" alt="thumb1" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
-        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/34.jpg'); ?>" alt="thumb2" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
-        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/34.jpg'); ?>" alt="thumb3" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/34.jpg'); ?>" alt="thumb1" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
+        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/34.jpg'); ?>" alt="thumb2" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
+        <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/34.jpg'); ?>" alt="thumb3" onclick="changeImage(this.src)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
       </div>
     </div>
 

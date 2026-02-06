@@ -67,9 +67,9 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
                     <?php foreach ($products as $product): ?>
                         <a href="../pages/buy.php" class="product-card">
                             <div class="product">
-                                <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/1.jpg'); ?>"
+                                <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/1.jpg'); ?>"
                                     alt="<?php echo htmlspecialchars($product['name']); ?>"
-                                    onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+                                    onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
                                 <h2><?php echo htmlspecialchars($product['name']); ?></h2>
                                 <p><?php echo htmlspecialchars(substr($product['description'] ?? '', 0, 100)); ?>...</p>
                                 <p class="price">₹<?php echo number_format($product['price'] ?? 0); ?></p>
@@ -82,16 +82,16 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
                 <div class="products-grid">
                     <a href="../pages/buy.php" class="product-card">
                         <div class="product">
-                            <img src="/Bhavya/assets/images/product_gallery/1.jpg" alt="Premium Bluetooth Speaker"
-                                onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+                            <img src="/Soundex/assets/images/product_gallery/1.jpg" alt="Premium Bluetooth Speaker"
+                                onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
                             <h2>Bluetooth Speakers</h2>
                             <p>High-quality wireless audio solutions</p>
                         </div>
                     </a>
                     <a href="../pages/portable speaker.php" class="product-card">
                         <div class="product">
-                            <img src="/Bhavya/assets/images/product_gallery/2.jpg" alt="Portable Speaker"
-                                onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/2.jpg';">
+                            <img src="/Soundex/assets/images/product_gallery/2.jpg" alt="Portable Speaker"
+                                onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/2.jpg';">
                             <h2>Portable Speakers</h2>
                             <p>Take your music anywhere with our portable speakers</p>
                         </div>

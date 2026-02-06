@@ -27,7 +27,7 @@ if (!$product) {
             'name' => 'Sony SRS-XB33 Extra Bass',
             'description' => 'Experience powerful, EXTRA BASS from this compact, waterproof speaker. The passive radiator works together with the monaural speaker to reproduce deep, punchy bass. With Party Connect, you can play music on multiple compatible devices at the same time.',
             'price' => 15999,
-            'image_url' => '/Bhavya/assets/images/product_gallery/32.jpg',
+            'image_url' => '/Soundex/assets/images/product_gallery/32.jpg',
             'features' => [
                 'Waterproof & Dustproof (IP67 rated)',
                 'Up to 24 hours battery life',
@@ -50,8 +50,8 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo htmlspecialchars($product['name'] ?? 'Product Detail'); ?> - Soundex</title>
-  <link rel="stylesheet" href="/Bhavya/frontend/css/gallary.css">
-  <link rel="stylesheet" href="/Bhavya/frontend/css/header.css">
+  <link rel="stylesheet" href="/Soundex/frontend/css/gallary.css">
+  <link rel="stylesheet" href="/Soundex/frontend/css/header.css">
   <style>
     /* Reuse existing CSS classes from gallary.css and header.css */
     body {
@@ -265,21 +265,21 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
   <!-- Navigation Header -->
   <nav>
     <ul>
-      <div class="logo"><a href="/Bhavya/frontend/pages/about.php"><h1>Soun<p>Dex</p></h1></a></div>
-      <li><a href="/Bhavya/frontend/pages/home.php">Home</a></li>
-      <li><a href="/Bhavya/frontend/pages/Gallery.php" class="active">Gallery</a></li>
-      <li><a href="/Bhavya/frontend/pages/faqs.php">FAQs</a></li>
-      <li><a href="/Bhavya/frontend/pages/services.php">Services</a></li>
-      <li><a href="/Bhavya/frontend/pages/contact%20us.php">Contact</a></li>
-      <li><a href="/Bhavya/frontend/pages/about.php">About</a></li>
+      <div class="logo"><a href="/Soundex/frontend/pages/about.php"><h1>Soun<p>Dex</p></h1></a></div>
+      <li><a href="/Soundex/frontend/pages/home.php">Home</a></li>
+      <li><a href="/Soundex/frontend/pages/Gallery.php" class="active">Gallery</a></li>
+      <li><a href="/Soundex/frontend/pages/faqs.php">FAQs</a></li>
+      <li><a href="/Soundex/frontend/pages/services.php">Services</a></li>
+      <li><a href="/Soundex/frontend/pages/contact%20us.php">Contact</a></li>
+      <li><a href="/Soundex/frontend/pages/about.php">About</a></li>
       <?php if ($isLoggedIn): ?>
       <li><a href="#" style="color: #0077cc; font-weight: bold;"><?php echo htmlspecialchars($username); ?></a></li>
-      <li><a href="/Bhavya/frontend/logout.php">Logout</a></li>
+      <li><a href="/Soundex/frontend/logout.php">Logout</a></li>
       <?php else: ?>
-      <li><a href="/Bhavya/frontend/pages/login.php">Login</a></li>
-      <li><a href="/Bhavya/frontend/pages/signup.php">Sign Up</a></li>
+      <li><a href="/Soundex/frontend/pages/login.php">Login</a></li>
+      <li><a href="/Soundex/frontend/pages/signup.php">Sign Up</a></li>
       <?php endif; ?>
-      <li><a href="/Bhavya/frontend/pages/checkout.php" class="cart-icon" id="cartIcon">
+      <li><a href="/Soundex/frontend/pages/checkout.php" class="cart-icon" id="cartIcon">
         🛒
         <span class="cart-count" id="cartCount">0</span>
       </a></li>
@@ -293,12 +293,12 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
         <!-- Product Images Section -->
         <div class="product-images-section">
           <div class="image-container">
-            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?>" class="main-product-img" id="main-product-image" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?>" class="main-product-img" id="main-product-image" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
           </div>
           <div class="thumbnail-container">
-            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?> front view" class="thumbnail-img active" onclick="changeImage(this.src, this)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
-            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?> side view" class="thumbnail-img" onclick="changeImage(this.src, this)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
-            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Bhavya/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?> back view" class="thumbnail-img" onclick="changeImage(this.src, this)" onerror="this.onerror=null; this.src='/Bhavya/assets/images/product_gallery/1.jpg';">
+            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?> front view" class="thumbnail-img active" onclick="changeImage(this.src, this)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
+            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?> side view" class="thumbnail-img" onclick="changeImage(this.src, this)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
+            <img src="<?php echo htmlspecialchars($product['image_url'] ?? '/Soundex/assets/images/product_gallery/32.jpg'); ?>" alt="<?php echo htmlspecialchars($product['name'] ?? 'Product Image'); ?> back view" class="thumbnail-img" onclick="changeImage(this.src, this)" onerror="this.onerror=null; this.src='/Soundex/assets/images/product_gallery/1.jpg';">
           </div>
         </div>
 
