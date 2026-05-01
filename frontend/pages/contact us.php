@@ -128,24 +128,7 @@ if ($_POST) {
     </div>
   </footer>
 
-  <script>
-    function updateCartCount() {
-      const cart = JSON.parse(localStorage.getItem('cart')) || [];
-      const totalItems = cart.reduce((total, item) => total + (item.quantity || 1), 0);
-      const cartCountElement = document.getElementById('cartCount');
-      const cartIconElement = document.getElementById('cartIcon');
 
-      if (cartCountElement) {
-        cartCountElement.textContent = totalItems;
-        if (totalItems > 0) {
-          cartIconElement.classList.remove('empty');
-        } else {
-          cartIconElement.classList.add('empty');
-        }
-      }
-    }
-    document.addEventListener('DOMContentLoaded', updateCartCount);
-  </script>
 </body>
 
 </html>

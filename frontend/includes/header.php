@@ -25,7 +25,7 @@ nav {
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
-    width: 100vw !important;
+    width: 100% !important;
     background-color: #22313f !important;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
     z-index: 999999 !important;
@@ -33,18 +33,19 @@ nav {
     display: flex !important;
     align-items: center !important;
     box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* ── Nav list ── */
 nav ul {
     list-style: none !important;
-    margin: 0 auto !important;
-    padding: 0 40px !important;
+    margin: 0 !important;
+    padding: 0 5% !important;
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
     width: 100% !important;
-    max-width: 1400px !important;
     height: 100% !important;
 }
 
@@ -172,7 +173,7 @@ nav ul li a.active { color: #5dade2 !important; }
 }
 </style>
 
-<nav style="position:fixed!important;top:0!important;left:0!important;right:0!important;width:100vw!important;background-color:#22313f!important;height:80px!important;display:flex!important;align-items:center!important;z-index:999999!important;box-shadow:0 4px 15px rgba(0,0,0,0.4)!important;box-sizing:border-box!important;">
+<nav style="position:fixed!important;top:0!important;left:0!important;right:0!important;width:100%!important;background-color:#22313f!important;height:80px!important;display:flex!important;align-items:center!important;z-index:999999!important;box-shadow:0 4px 15px rgba(0,0,0,0.4)!important;box-sizing:border-box!important;margin:0!important;padding:0!important;">
     <ul>
         <div class="logo">
             <a href="../pages/home.php">
