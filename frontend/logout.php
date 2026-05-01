@@ -24,6 +24,7 @@ session_destroy();
     <script>
         localStorage.removeItem('session_token');
         localStorage.removeItem('user');
+        localStorage.removeItem('cart');
         window.location.href = 'index.php';
     </script>
 </head>

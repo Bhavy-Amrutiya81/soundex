@@ -214,10 +214,20 @@ nav ul li a.active { color: #5dade2 !important; }
      * Updates the cart count badge in the header.
      */
     function updateCartCount() {
-        const cart = JSON.parse(localStorage.getItem('cart')) || [];
-        const totalItems = cart.reduce((total, item) => total + (item.quantity || 1), 0);
+        const isLoggedIn = <?php echo $isLoggedIn ? 'true' : 'false'; ?>;
         const cartCountEl = document.getElementById('cartCount');
         const cartIconEl  = document.getElementById('cartIcon');
+        
+        if (!isLoggedIn) {
+            if (cartCountEl) {
+                cartCountEl.textContent = '0';
+                if (cartIconEl) cartIconEl.classList.add('empty');
+            }
+            return;
+        }
+
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        const totalItems = cart.reduce((total, item) => total + (item.quantity || 1), 0);
         if (cartCountEl) {
             cartCountEl.textContent = totalItems;
             cartIconEl.classList.toggle('empty', totalItems === 0);
