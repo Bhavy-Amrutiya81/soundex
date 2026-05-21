@@ -54,7 +54,7 @@ if (isset($_SESSION['user_id'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Soundex</title>
-    <link rel="stylesheet" href="../css/header.css?v=1.3" />
+    
     <style>
         body {
             margin: 0;
@@ -132,7 +132,7 @@ if (isset($_SESSION['user_id'])) {
     <?php
     $isLoggedIn = isset($_SESSION['user_id']);
     $username = $isLoggedIn ? $_SESSION['username'] : '';
-    include '../includes/header.php';
+    
     ?>
     <div class="login-container">
         <h2>Login to Soundex</h2>

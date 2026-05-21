@@ -45,20 +45,17 @@ $username = $isLoggedIn ? $_SESSION['username'] : '';
         <h2>Meet Our Team</h2>
         <div class="team-members">
           <div class="member">
-            <img src="../../assets/images/team/member1.jpg" alt="Amrutiya Bhavy"
-              onerror="this.src='https://via.placeholder.com/150?text=AB'">
+            <img src="../../assets/images/Team Leader.jpeg" alt="Amrutiya Bhavy">              
             <h3>Amrutiya Bhavy</h3>
             <p>Team Leader</p>
           </div>
           <div class="member">
-            <img src="../../assets/images/team/member2.jpg" alt="Babriya Dhruv"
-              onerror="this.src='https://via.placeholder.com/150?text=BD'">
+            <img src="../../assets/images/member1.jpeg" alt="Babriya Dhruv">
             <h3>Babriya Dhruv</h3>
             <p>Team Member</p>
           </div>
           <div class="member">
-            <img src="../../assets/images/team/member3.jpg" alt="Bhatt Parv"
-              onerror="this.src='https://via.placeholder.com/150?text=BP'">
+            <img src="../../assets/images/member2.jpeg" alt="Bhatt Parv">              
             <h3>Bhatt Parv</h3>
             <p>Team Member</p>
           </div>

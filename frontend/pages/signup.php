@@ -47,7 +47,7 @@ $username_nav = $isLoggedIn ? $_SESSION['username'] : '';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up - Soundex Audio Solutions</title>
-  <link rel="stylesheet" href="../css/header.css?v=1.3" />
+ 
   <style>
     body {
       margin: 0;
@@ -126,7 +126,7 @@ $username_nav = $isLoggedIn ? $_SESSION['username'] : '';
   <?php
   // Use a temp variable so we don't override the form's $username
   $username = $username_nav;
-  include '../includes/header.php';
+ 
   $username = $_POST['username'] ?? '';
   ?>
 
